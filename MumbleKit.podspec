@@ -8,35 +8,23 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MumbleKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MumbleKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.0.1'
+  s.summary          = 'MumbleKit for iOS.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is a pod version of the MumbleKit, SDK to include Mumble into your iOS application
                        DESC
 
-  s.homepage         = 'https://github.com/pureblood/MumbleKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Pixsel-Limited/MumbleKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pureblood' => 'hhunaid@gmail.com' }
-  s.source           = { :git => 'https://github.com/pureblood/MumbleKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Hunaid Hassan' => 'hhunaid@gmail.com' }
+  s.source           = { :git => 'https://github.com/Pixsel-Limited/MumbleKit.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://fb.com/hhunaid'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
+  s.vendored_libraries = 'lib/libMumbleKit.a'
 
-  s.source_files = 'MumbleKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MumbleKit' => ['MumbleKit/Assets/*.png']
-  # }
+  s.public_header_files = 'include/**/*.h'
+  s.source_files = 'include/**/*.h'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

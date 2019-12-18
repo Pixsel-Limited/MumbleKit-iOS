@@ -1,15 +1,10 @@
 # MumbleKit
 
-[![CI Status](https://img.shields.io/travis/pureblood/MumbleKit.svg?style=flat)](https://travis-ci.org/pureblood/MumbleKit)
-[![Version](https://img.shields.io/cocoapods/v/MumbleKit.svg?style=flat)](https://cocoapods.org/pods/MumbleKit)
-[![License](https://img.shields.io/cocoapods/l/MumbleKit.svg?style=flat)](https://cocoapods.org/pods/MumbleKit)
-[![Platform](https://img.shields.io/cocoapods/p/MumbleKit.svg?style=flat)](https://cocoapods.org/pods/MumbleKit)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Mumble SDK for iOS
 
 ## Requirements
+
+- iOS 6.0
 
 ## Installation
 
@@ -22,7 +17,7 @@ pod 'MumbleKit'
 
 ## Author
 
-pureblood, hhunaid@gmail.com
+hhunaid, hhunaid@gmail.com
 
 ## License
 
