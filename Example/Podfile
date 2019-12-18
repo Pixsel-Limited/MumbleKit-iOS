@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MumbleKit_Tests' do
+  pod 'MumbleKit', :path => '../'
+  
+  
+end
