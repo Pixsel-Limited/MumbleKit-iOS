@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   This is a pod version of the MumbleKit, SDK to include Mumble into your iOS application
                        DESC
 
-  s.homepage         = 'https://github.com/Pixsel-Limited/MumbleKit'
+  s.homepage         = 'https://github.com/Pixsel-Limited/MumbleKit-iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hunaid Hassan' => 'hhunaid@gmail.com' }
-  s.source           = { :git => 'https://github.com/Pixsel-Limited/MumbleKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Pixsel-Limited/MumbleKit-iOS.git', :tag => s.version.to_s }
   s.social_media_url = 'https://fb.com/hhunaid'
 
   s.ios.deployment_target = '6.0'
