@@ -3,6 +3,7 @@
 // license that can be found in the LICENSE file.
 
 #import <Security/Security.h>
+#import <Foundation/Foundation.h>
 
 /// @constant The default MKConnection ping interval.
 #define MKConnectionPingInterval 5.0f

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MumbleKit'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'MumbleKit for iOS.'
 
   s.description      = <<-DESC
@@ -26,5 +26,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'include/**/*.h'
   s.source_files = 'include/**/*.h'
+  s.frameworks = 'MobileCoreServices', 'Foundation', 'UIKit', 'CoreGraphics', 'AudioToolBox', 'CFNetwork', 'Security', 'QuartzCore'
+  s.library = 'c++'
 
 end
